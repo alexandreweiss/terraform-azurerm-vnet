@@ -52,7 +52,7 @@ variable "subnet_delegation" {
   default     = {}
 }
 
-variable "subnet_enforce_private_link_endpoint_network_policies" {
+variable "subnet_private_endpoint_network_policies_enabled" {
   description = "A map of subnet name to enable/disable private link endpoint network policies on the subnet."
   type        = map(bool)
   default     = {}

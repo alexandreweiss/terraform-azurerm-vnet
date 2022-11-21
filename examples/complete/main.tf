@@ -58,7 +58,7 @@ module "vnet" {
     costcenter  = "it"
   }
 
-  subnet_enforce_private_link_endpoint_network_policies = {
+  subnet_private_endpoint_network_policies_enabled = {
     subnet2 = true
   }
 
